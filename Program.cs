@@ -1,5 +1,3 @@
-using System.Linq;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -38,7 +36,7 @@ app.MapGet("/todoitems", () => items)
 
 app.MapGet("/todoitems/{id}", (int id) => items.First(item => item.Id == id));
 
-app.MapPost("/todoitems", (Todo item) => items.Append(item));
+app.MapPost("/todoitems", (Todo item) => items = items.Append(item).ToArray());
 
 app.MapPut("/todoitems/{id}", (int id, Todo item) => 
 {
