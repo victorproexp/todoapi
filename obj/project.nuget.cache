@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "uSuqpnckcFzH8I6COlSCZLaLlpaT3v0pHHP5n8nU4198NEzibyDEMX2qt9/vXPZn9bnoRilXYDwZFHjLTmgU3w==",
+  "success": true,
+  "projectFilePath": "/Users/victorpascale/Projects/3. semester/TodoList2_3/TodoList2_3.csproj",
+  "expectedPackageFiles": [
+    "/Users/victorpascale/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/victorpascale/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/victorpascale/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/victorpascale/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/victorpascale/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/victorpascale/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
