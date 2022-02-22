@@ -5,7 +5,19 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var AllowSomeStuff = "_AllowSomeStuff";
+builder.Services.AddCors(options => 
+{
+    options.AddPolicy(name: AllowSomeStuff, builder => {
+        builder.AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
+
+app.UseCors(AllowSomeStuff);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
